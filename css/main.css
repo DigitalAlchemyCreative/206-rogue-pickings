@@ -190,7 +190,7 @@ footer span {
 
 /********* /////////tablets greater than 934px////////******/
 
-@media (min-width: 934px) {
+@media all and (min-width: 934px) {
 	.bottom-section {
 		display: flex;
 		flex-flow: row;	
@@ -209,12 +209,13 @@ footer span {
 
 /********* /////////desktops greater than 1208////////******/
 
-@media (min-width: 1200px) { 
+@media all and (min-width: 1200px) { 
 header {
 	flex-flow: row;
 }
 header nav ul {
 	flex-flow: row;
+	justify-content: space-between;
 }
 header h1 {
 	border-bottom: none;
